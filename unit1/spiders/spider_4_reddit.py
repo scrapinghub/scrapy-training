@@ -1,4 +1,5 @@
 import scrapy
+from datetime import datetime
 
 
 class RedditSpider(scrapy.Spider):
@@ -16,6 +17,10 @@ class RedditSpider(scrapy.Spider):
                 'link': thing.css('.title > a::attr(href)').extract_first(),
                 'user_name': thing.css('a.author::text').extract_first(),
                 'user_url': thing.css('a.author::attr(href)').extract_first(),
-                'score': thing.css('.score.unvoted::text').extract_first(),
-                'time': thing.css('time::attr(datetime)').extract_first(),
+                # when score is 0, reddit show a bullet point instead of a 0
+                'score': int(thing.css('.score.unvoted::text').re_first('(\d+)') or 0),
+                'time': datetime.strptime(
+                    thing.css('time::attr(datetime)').extract_first(),
+                    '%Y-%m-%dT%H:%M:%S+00:00'
+                ),
             }
