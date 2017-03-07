@@ -3,6 +3,8 @@ Unit 2: Navigating websites with Scrapy
 
 This unit build upon the previous one and covers how to crawl websites with Scrapy. Crawling a website means basically following the links found in the pages, so that the spider visits all the pages it needs.
 
+**[Click here to view this unit's slides](https://docs.google.com/presentation/d/1BbO8W17EJtD9doK-VwNVju8IC3Dk5zA3n_Qy2t7wLyo/edit)**
+
 
 ## Sample Spiders
 1. Spider that follows pagination links to scrape [quotes.toscrape.com](http://quotes.toscrape.com): [[spider_1_quotes_pagination.py](spiders/spider_1_quotes_pagination.py)]
