@@ -19,7 +19,7 @@ This unit build upon the previous one and covers how to crawl websites with Scra
 ## Hands-on
 
 #### 1. Books Crawler (without CrawlSpider)
-**Without using CrawlSpider**, build a spider to extract `title`, `rating` (int), `price` (float), `stock` and  `cover URL` from all the 1000 books available in [books.toscrape.com](http://books.toscrape.com).
+**Without using CrawlSpider**, build a spider to extract `title`, `price` (float) and `stock` from all the 1000 books available in [books.toscrape.com](http://books.toscrape.com).
 
 [Check out the spider **once you're done**.](spiders/spider_7_books.py)
 
