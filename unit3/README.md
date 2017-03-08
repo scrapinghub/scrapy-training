@@ -28,7 +28,7 @@ Create a CLI app to fetch the scraped data from Scrapy Cloud and list the top 10
         C → number of comments
         K → original poster's comments karma
 
-[Check out the project **once you're done**.](spiders/p4_handson.py)
+[Check out the project **once you're done**.](spiders/p4_handson/)
 
 
 ## References
