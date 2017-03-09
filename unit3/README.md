@@ -15,12 +15,19 @@ This unit describes how to deploy scrapy spiders to [Scrapy Cloud](http://app.sc
 
 ## Hands-on
 
-#### 1. Reddit Crawler
+#### 1. Deploy the books crawler
+Deploy the crawler for books.toscrape.com built in [unit 2](../unit2) to Scrapy Cloud.
+
+a. Run the spider without touching any settings
+b. Run the spider, but now with `DOWNLOAD_DELAY = 1` set via web UI
+
+[Check out the project **once you're done**.](spiders/p4_bookscrawler/)
+
+
+#### 2. Reddit Ranker
 Create a crawler to fetch the 100 hottest submissions from reddit.com/r/programming (to run on Scrapy Cloud).
 
-
-#### 2. Ranking submissions
-Create a CLI app to fetch the scraped data from Scrapy Cloud and list the top 10 submissions from the latest crawl, based on the score below:
+After that, create a CLI app to fetch the scraped data from Scrapy Cloud and list the top 10 submissions from the latest crawl, based on the score below:
 
     new_score = S * C * K
 
@@ -28,7 +35,7 @@ Create a CLI app to fetch the scraped data from Scrapy Cloud and list the top 10
         C → number of comments
         K → original poster's comments karma
 
-[Check out the project **once you're done**.](spiders/p4_handson/)
+[Check out the project **once you're done**.](spiders/p5_handson/)
 
 
 ## References

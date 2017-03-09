@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for reddit_crawler project
+# Scrapy settings for p4_bookscrawler project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'reddit_crawler'
+BOT_NAME = 'p4_bookscrawler'
 
-SPIDER_MODULES = ['reddit_crawler.spiders']
-NEWSPIDER_MODULE = 'reddit_crawler.spiders'
+SPIDER_MODULES = ['p4_bookscrawler.spiders']
+NEWSPIDER_MODULE = 'p4_bookscrawler.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'reddit_crawler (+http://www.yourdomain.com)'
+#USER_AGENT = 'p4_bookscrawler (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'reddit_crawler.middlewares.RedditCrawlerSpiderMiddleware': 543,
+#    'p4_bookscrawler.middlewares.P4BookscrawlerSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'reddit_crawler.middlewares.MyCustomDownloaderMiddleware': 543,
+#    'p4_bookscrawler.middlewares.MyCustomDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'reddit_crawler.pipelines.RedditCrawlerPipeline': 300,
+#    'p4_bookscrawler.pipelines.P4BookscrawlerPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

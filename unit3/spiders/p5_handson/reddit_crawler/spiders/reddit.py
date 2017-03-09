@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 import scrapy
+import logging
+
+
+logger = logging.getLogger(__name__)
 
 
 class RedditSpider(scrapy.Spider):
@@ -8,6 +12,7 @@ class RedditSpider(scrapy.Spider):
     depth_level = 0
 
     def parse(self, response):
+        logger.error('settings.TESTING_SETTING: {}'.format(self.settings.get('TESTING_SETTING')))
         self.depth_level += 1
         for thing in response.css('.thing:not(.stickied)'):
             item = {
