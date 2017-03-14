@@ -4,6 +4,7 @@ from scrapy_splash import SplashRequest
 
 class QuotesJsSpider(scrapy.Spider):
     name = 'quotes-js'
+    # http_user = 'API KEY'  # if you are using the hosted version of Splash
 
     def start_requests(self):
         yield SplashRequest('http://quotes.toscrape.com/js')
