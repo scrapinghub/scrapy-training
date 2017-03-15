@@ -6,3 +6,4 @@ Crawling the Web with Scrapy
 * [Unit 3: Running Spiders in the Cloud](unit3/README.md)
 * [Unit 4: Handling HTML Forms](unit4/README.md)
 * [Unit 5: Scraping JavaScript based pages](unit5/README.md)
+* [Unit 6: Extending Scrapy](unit6/README.md)
