@@ -7,10 +7,9 @@ This unit describes how to deploy scrapy spiders to [Scrapy Cloud](http://app.sc
 
 
 ## Sample Spiders
-1. A simple project to demonstrate deploy: [[p1_first_deploy](spiders/p1_first_deploy/)]
-2. A project to deploy with dependencies: [[p2_dependencies](spiders/p2_dependencies/)]
-3. A project to deploy with Python Scripts: [[p3_scripts](spiders/p3_scripts/)]
-
+1. A simple project to demonstrate deploy: [`p1_first_deploy`](spiders/p1_first_deploy/)
+2. A project to deploy with dependencies: [`p2_dependencies](spiders/p2_dependencies/)
+3. A project to deploy with Python Scripts: [`p3_scripts`](spiders/p3_scripts/)
 
 
 ## Hands-on
