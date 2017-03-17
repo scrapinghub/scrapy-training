@@ -7,8 +7,8 @@ This unit covers the basics of web scraping with a special focus on data extract
 
 
 ## Sample Spiders
-1. Spider that saves 2 pages from quotes.toscrape.com to the disk: [[spider_1_quotes.py](spiders/spider_1_quotes.py)], [[spider_2_quotes.py](spiders/spider_2_quotes.py)]
-2. Spider that scrapes quotes.toscrapes.com: [[spider_3_quotes.py](spiders/spider_3_quotes.py)]
+1. Spider that saves 2 pages from quotes.toscrape.com to the disk: [`spider_1_quote.py`](spiders/spider_1_quotes.py), [`spider_2_quotes.py`](spiders/spider_2_quotes.py)
+2. Spider that scrapes quotes.toscrapes.com: [`spider_3_quotes.py`](spiders/spider_3_quotes.py)
 
 
 ## Hands-on
