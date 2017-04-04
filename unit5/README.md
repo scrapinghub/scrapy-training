@@ -3,7 +3,7 @@ Unit 5: Scraping JavaScript based pages
 
 In this unit, we will see how to extract data from JS based pages.
 
-**[Click here to view this unit's slides](https://docs.google.com/presentation/d/1HAMMWLDQ7wbxZVBSiKrsiWVXyt2ok8YcKHRrdQMRVM8/edit)**
+**[Check out the slides for this unit](https://docs.google.com/presentation/d/1HAMMWLDQ7wbxZVBSiKrsiWVXyt2ok8YcKHRrdQMRVM8/pub?start=false&loop=false&delayms=300000000)**
 
 
 ## Sample Spiders

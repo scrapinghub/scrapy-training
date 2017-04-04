@@ -11,11 +11,13 @@ class HMJs2XmlSpider(scrapy.Spider):
     def parse(self, response):
         js_code = response.xpath('//script[contains(., "productArticleDetails")]/text()').extract_first()
         parsed_js = js2xml.parse(js_code)
-        sel = scrapy.Selector(root=parsed_js)
-        for product in sel.css('property[name="categoryParentKey"] ~ property'):
+        product_details = parsed_js.xpath('//var[@name="productArticleDetails"]/object')[0]
+        data = js2xml.jsonlike.make_dict(product_details)
+
+        for product in (v for k, v in data.items() if k.isdigit()):
             yield {
-                'descr': product.css('property[name="description"] > string::text').extract_first(),
-                'price': product.css('property[name="priceValue"] > string::text').extract_first(),
-                'color': product.css('property[name="name"] > string::text').extract_first(),
-                'url': response.urljoin(product.css('property[name="url"] > string::text').extract_first()),
+                'descr': product['description'],
+                'price': product['priceValue'],
+                'color': product['name'],
+                'url': product['url'],
             }
