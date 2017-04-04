@@ -3,7 +3,7 @@ Unit 3: Running Spiders in the Cloud
 
 This unit describes how to deploy scrapy spiders to [Scrapy Cloud](http://app.scrapinghub.com) and how to leverage from this platform.
 
-**[Click here to view this unit's slides](https://docs.google.com/presentation/d/1nEUGJ-slHYNemYvo8WEBizDtYDCikWcnNXfhUhHFDRw/edit)**
+**[Check out the slides for this unit](https://docs.google.com/presentation/d/1nEUGJ-slHYNemYvo8WEBizDtYDCikWcnNXfhUhHFDRw/pub?start=false&loop=false&delayms=300000000)**
 
 
 ## Sample Spiders
