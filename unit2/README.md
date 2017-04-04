@@ -3,7 +3,7 @@ Unit 2: Navigating websites with Scrapy
 
 This unit build upon the previous one and covers how to crawl websites with Scrapy. Crawling a website means basically following the links found in the pages, so that the spider visits all the pages it needs.
 
-**[Click here to view this unit's slides](https://docs.google.com/presentation/d/1BbO8W17EJtD9doK-VwNVju8IC3Dk5zA3n_Qy2t7wLyo/edit)**
+**[Check out the slides for this unit](https://docs.google.com/presentation/d/1BbO8W17EJtD9doK-VwNVju8IC3Dk5zA3n_Qy2t7wLyo/pub?start=false&loop=false&delayms=600000000)**
 
 
 ## Sample Spiders
@@ -18,15 +18,17 @@ This unit build upon the previous one and covers how to crawl websites with Scra
 
 ## Hands-on
 
-#### 1. Books Crawler (without CrawlSpider)
-**Without using CrawlSpider**, build a spider to extract `title`, `price` (float) and `stock` from all the 1000 books available in [books.toscrape.com](http://books.toscrape.com).
+#### 1. Books Crawler
+Build a spider to extract `title`, `price` (float) and `stock` from all the 1000 books available in [books.toscrape.com](http://books.toscrape.com).
 
 [Check out the spider **once you're done**.](spiders/spider_7_books.py)
 
-#### 2. Books Crawler (with CrawlSpider)
-Build a spider with the same requirements as the previous exercise, but now using `CrawlSpider`.
+#### 2. Blog.scrapinghub.com Crawler
+Build a spider that extracts the following data from blog.scrapinghub.com posts: `post title`, `URL`, `author name`, `date` and `post tags`. Your spider should not extract posts that have no tags associated.
 
-[Check out the spider **once you're done**.](spiders/spider_8_books_crawlspider.py)
+[Check out the spider **once you're done**.](spiders/spider_9_blog.py)
+
+
 
 ## References
 * [Scrapy Tutorial](https://doc.scrapy.org/en/latest/intro/tutorial.html)
