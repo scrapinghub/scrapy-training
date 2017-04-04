@@ -3,7 +3,7 @@ Unit 1: Scraping the Web with Scrapy
 
 This unit covers the basics of web scraping with a special focus on data extraction with Scrapy.
 
-**[Click here to view this unit's slides](https://docs.google.com/presentation/d/1IYFmTeAyOSwMUtQkrjWuAkfcqOMWNlY6wmn1DgA5ZB4/edit)**
+**[Check out the slides for this unit](https://docs.google.com/presentation/d/1IYFmTeAyOSwMUtQkrjWuAkfcqOMWNlY6wmn1DgA5ZB4/pub?start=true&loop=false&delayms=600000000)**
 
 
 ## Sample Spiders
