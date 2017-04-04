@@ -1,3 +1,6 @@
+<a href="http://scrapinghub.com"><img src="https://scrapy.org/img/shub-logo.png" width="350px"></a>
+
+
 Crawling the Web with Scrapy
 ============================
 
