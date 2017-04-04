@@ -10,3 +10,9 @@ Crawling the Web with Scrapy
 * [Unit 4: Handling HTML Forms](unit4/README.md)
 * [Unit 5: Scraping JavaScript based pages](unit5/README.md)
 * [Unit 6: Extending Scrapy](unit6/README.md)
+
+
+
+Interested in this training?
+----------------------------
+[Contact us here](https://scrapinghub.com/quote) if you or your company are interested in Scrapy training and coaching sessions.
