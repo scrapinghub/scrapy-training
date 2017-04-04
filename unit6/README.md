@@ -3,7 +3,7 @@ Unit 6: Extending Scrapy
 
 This unit covers how to extend Scrapy capabilities, either via Item Pipelines or Middlewares.
 
-**[Click here to view this unit's slides](https://docs.google.com/presentation/d/1cPGni3rAhE-vQoDdxOJSuXrqioHDvBQOpufDQNyYQOM/edit)**
+**[Check out the slides of this unit](https://docs.google.com/presentation/d/1cPGni3rAhE-vQoDdxOJSuXrqioHDvBQOpufDQNyYQOM/pub?start=false&loop=false&delayms=300000000)**
 
 
 ## Sample Spiders
