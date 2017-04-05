@@ -3,6 +3,12 @@ Unit 2: Navigating websites with Scrapy
 
 This unit build upon the previous one and covers how to crawl websites with Scrapy. Crawling a website means basically following the links found in the pages, so that the spider visits all the pages it needs.
 
+## Topics
+* Link crawling
+* Basic link discovery
+* Crawling settings
+
+
 **[Check out the slides for this unit](https://docs.google.com/presentation/d/1BbO8W17EJtD9doK-VwNVju8IC3Dk5zA3n_Qy2t7wLyo/pub?start=false&loop=false&delayms=600000000)**
 
 
