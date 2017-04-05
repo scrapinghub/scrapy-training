@@ -3,6 +3,12 @@ Unit 4: Handling HTML Forms
 
 This unit covers how to post data to web servers, so that our spiders can perform searches and authenticate themselves in websites that require that.
 
+## Topics
+* Handling HTML forms
+* Authenticating your spider via login forms
+* Dealing with validation tokens
+
+
 **[Check out the slides for this unit](https://docs.google.com/presentation/d/1T67JklviVFD-HkP21GxSIgr_BQY6lBbJY83eZTnkFnU/pub?start=false&loop=false&delayms=300000000)**
 
 
