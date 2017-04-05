@@ -3,6 +3,10 @@ Unit 5: Scraping JavaScript based pages
 
 In this unit, we will see how to extract data from JS based pages.
 
+## Topics
+* Scraping JavaScript-based websites
+* Scraping AJAX-based websites
+
 **[Check out the slides for this unit](https://docs.google.com/presentation/d/1HAMMWLDQ7wbxZVBSiKrsiWVXyt2ok8YcKHRrdQMRVM8/pub?start=false&loop=false&delayms=300000000)**
 
 
