@@ -21,7 +21,13 @@ class BooksSpider(scrapy.Spider):
             yield scrapy.Request(response.urljoin(next_page), callback=self.parse)
 
     def parse_book(self, response):
+        # the rating is represented as a CSS class, like:
+        #     <p class="star-rating Four"></p>
+        #     <p class="star-rating Two"></p>
+        rating = response.css('p.star-rating::attr(class)').extract_first()
+        rating = rating.split(' ')[1].lower()
         yield {
+            'rating': self.ratings_map.get(rating, 0),
             'title': response.css('.product_main h1::text').extract_first(),
             'price': float(response.css('.product_main p.price_color::text').re_first('£(.*)')),
             'stock': int(
