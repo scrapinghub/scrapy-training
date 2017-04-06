@@ -1,8 +1,8 @@
 from scrapy.spiders import SitemapSpider
 
 
-class AppleSitemapSpider(SitemapSpider):
-    name = 'apple-spider'
+class BlogSitemapSpider(SitemapSpider):
+    name = 'blog-spider'
     sitemap_urls = ['http://pythonhelp.wordpress.com/sitemap.xml']
     sitemap_rules = [
         ('.com/\d{4}/', 'parse_blogpost'),
