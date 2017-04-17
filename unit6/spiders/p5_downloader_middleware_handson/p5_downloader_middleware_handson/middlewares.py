@@ -1,7 +1,7 @@
 from scrapy import signals
 from scrapy.http import HtmlResponse
 from scrapy.exceptions import NotConfigured
-import selenium.webdriver as webdriver
+from selenium import webdriver
 
 
 class SeleniumDownloaderMiddleware(object):
