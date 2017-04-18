@@ -22,8 +22,8 @@ class SeleniumDownloaderMiddleware(object):
             # disable js rendering in a per-request basis
             return
         self.driver.get(request.url)
-        content = self.driver.page_source.encode('utf-8')
-        return HtmlResponse(request.url, body=content)
+        content = self.driver.page_source
+        return HtmlResponse(request.url, body=content, encoding='utf-8')
 
     def spider_closed(self, spider):
         self.driver.close()
