@@ -19,16 +19,16 @@ In this unit, we will see how to extract data from JS based pages.
 
 4. A spider built with Selenium + Python (not using Scrapy): [`spider_4_standalone_selenium.py`](spiders/spider_4_standalone_selenium.py)
 
-5. A spider that scrapes data using AJAX calls to simulate infinite scrolling: [`spider_5_ajax_pythonhelp.py`](spiders/spider_5_ajax_pythonhelp.py)
+5. A spider that scrapes data using AJAX calls to simulate infinite scrolling: [`spider_5_ajax_quotes.py`](spiders/spider_5_ajax_quotes.py)
 
 
 
 ## Hands-on
 
 #### 1. Infinite Scrolling (AJAX)
-Build a spider to fetch all quotes from http://quotes.toscrape.com/scroll.
+Build a spider to fetch all the posts from http://pythonhelp.wordpress.com
 
-[Check out the project **once you're done**.](spiders/spider_6_ajax_quotes.py)
+[Check out the project **once you're done**.](spiders/spider_6_ajax_pythonhelp.py)
 
 
 #### 2. JavaScript
