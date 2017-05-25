@@ -4,7 +4,6 @@ Unit 1: Scraping the Web with Scrapy
 This unit covers the basics of web scraping with a special focus on data extraction with Scrapy.
 
 ## Topics
-* Intro to web scraping
 * The anatomy of a Scrapy Spider
 * Building a simple spider
 * Web scraping with Scrapy & CSS
@@ -13,8 +12,12 @@ This unit covers the basics of web scraping with a special focus on data extract
 
 
 ## Sample Spiders
-1. Spider that saves 2 pages from quotes.toscrape.com to the disk: [`spider_1_quote.py`](spiders/spider_1_quotes.py), [`spider_2_quotes.py`](spiders/spider_2_quotes.py)
-2. Spider that scrapes quotes.toscrapes.com: [`spider_3_quotes.py`](spiders/spider_3_quotes.py)
+1. Spider that saves 2 pages from quotes.toscrape.com to the disk:
+    * [`spider_1_quote.py`](spiders/spider_1_quotes.py): implements `start_requests`.
+    * [`spider_2_quotes.py`](spiders/spider_2_quotes.py): uses `start_urls` attributes.
+2. Spider that scrapes quotes.toscrapes.com:
+    * [`spider_3_quotes.py`](spiders/spider_3_quotes.py): returns a list of dicts in the `parse` method.
+    * [`spider_4_quotes.py`](spiders/spider_4_quotes.py): generates dicts individually via `yield`.
 
 
 ## Hands-on

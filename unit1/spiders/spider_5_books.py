@@ -12,9 +12,8 @@ class BooksSpider(scrapy.Spider):
     }
 
     def start_requests(self):
-        with open('urls.txt') as urls_file:
-            for url in urls_file:
-                yield scrapy.Request(url.strip())
+        for url in open('urls.txt'):
+            yield scrapy.Request(url.strip())
 
     def parse(self, response):
         rating = response.css('p.star-rating::attr(class)').extract_first().split(' ')[-1]

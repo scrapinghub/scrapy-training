@@ -9,12 +9,10 @@ class QuotesSpider(scrapy.Spider):
             'http://quotes.toscrape.com/page/1/',
             'http://quotes.toscrape.com/page/2/',
         ]
+        requests = []
         for url in urls:
-            yield scrapy.Request(url=url, callback=self.parse)
+            requests.append(scrapy.Request(url=url, callback=self.parse))
+        return requests
 
     def parse(self, response):
-        page = response.url.split("/")[-2]
-        filename = 'quotes-%s.html' % page
-        with open(filename, 'wb') as f:
-            f.write(response.body)
-        self.log('Saved file %s' % filename)
+        self.log('I just visited {}'.format(response.url))
