@@ -17,6 +17,6 @@ class QuotesLoginSpider(scrapy.Spider):
             yield {
                 'text': quote.css('span::text').extract_first(),
                 'author_name': quote.css('small.author::text').extract_first(),
-                'author_goodreads_url': quote.css('small.author ~ a[href*="goodreads.com"]::attr(href)').extract_first(),
+                'author_goodreads_url': quote.css('a[href*="goodreads.com"]::attr(href)').extract_first(),
                 'tags': quote.css('.tags a::text').extract()
             }
