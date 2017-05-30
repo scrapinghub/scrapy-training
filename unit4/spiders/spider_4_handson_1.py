@@ -16,7 +16,7 @@ class HNewsLoginSpider(scrapy.Spider):
     def parse_homepage(self, response):
         yield {
             'username': response.css('span.pagetop a[href^="user"] ::text').extract_first(),
-            'points': response.xpath(
-                '//td[contains(@style, "text-align:right")]//text()'
-            ).re_first('\((\d+)\)')
+            'points': response.css(
+                'td[style*="text-align:right"] > span.pagetop'
+            ).re_first('\((\d+)\)'),
         }
