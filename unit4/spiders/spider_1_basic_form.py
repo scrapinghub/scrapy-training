@@ -3,11 +3,8 @@ import scrapy
 
 class BasicFormSpider(scrapy.Spider):
     name = 'basic-form'
-    start_urls = [
-        "http://httpbin.org/forms/post",
-    ]
 
-    def parse(self, response):
+    def start_requests(self):
         formdata = {
             'custname': 'Valdir',
             'custtel': '99333322',
