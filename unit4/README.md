@@ -32,4 +32,5 @@ Build a spider that scrapes all the quotes from every author listed in [quotes.t
 ## References
 * [Scrapy Tutorial](https://doc.scrapy.org/en/latest/intro/tutorial.html)
 * [Scrapy docs on FormRequest](https://doc.scrapy.org/en/latest/topics/request-response.html#formrequest-objects)
+* [LoginForm package](https://github.com/scrapy/loginform)
 * [Scraping websites based on ViewStates with Scrapy](https://blog.scrapinghub.com/2016/04/20/scrapy-tips-from-the-pros-april-2016-edition/)
