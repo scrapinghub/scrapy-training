@@ -13,7 +13,7 @@ class BasicFormSpider(scrapy.Spider):
             'custtel': '99333322',
             'custemail': 'valdir@scrapinghub.com',
             'size': 'large',
-            'topping': 'cheese',
+            'topping': ['bacon', 'cheese'],
             'delivery': '21:00',
             'comments': 'My dog is hungry!'
         }
