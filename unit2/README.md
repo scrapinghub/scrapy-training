@@ -15,10 +15,6 @@ This unit build upon the previous one and covers how to crawl websites with Scra
 1. Spider that follows pagination links to scrape [quotes.toscrape.com](http://quotes.toscrape.com): [`spider_1_quotes_pagination.py`](spiders/spider_1_quotes_pagination.py)
 2. Spider that extracts authors' data from details pages in [quotes.toscrape.com](http://quotes.toscrape.com): [`spider_2_authors_details.py`](spiders/spider_2_authors_details.py)
 3. Spider that extracts the quotes alongside authors's information from [quotes.toscrape.com](http://quotes.toscrape.com): [`spider_3_quotes_authors.py`](spiders/spider_3_quotes_authors.py)
-4. Spider that extracts books' data from [goodreads.com](http://goodreads.com): [`spider_4_goodreads_link_finder.py`](spiders/spider_4_goodreads_link_finder.py)
-5. `CrawlSpider` that extracts books' data from [goodreads.com](http://goodreads.com): [`spider_5_crawlspider.py`](spiders/spider_5_crawlspider.py)
-6. `SitemapSpider` example: [`spider_6_sitemap_blog.py`](spiders/spider_6_sitemap_blog.py)
-
 
 
 ## Hands-on
