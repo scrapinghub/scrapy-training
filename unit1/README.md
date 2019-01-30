@@ -22,15 +22,15 @@ This unit covers the basics of web scraping with a special focus on data extract
 
 ## Hands-on
 
-#### 1. Reddit spider
-Build a spider to extract `title`, `link`, `username`, `user_url`, `score` and `time` from each submission in the front page of reddit's [/r/programming](http://reddit.com/r/programming) and [/r/python](http://reddit.com/r/python).
-
-[Check out the spider **once you're done**.](spiders/spider_5_reddit.py)
-
-#### 2. Books spider
+#### 1. Books spider
 Build a spider for [books.toscrape.com](http://books.toscrape.com) that extracts `title`, `rating`, `price`, `stock` and `category` from the URLs listed in [this file](spiders/urls.txt) (it can be stored locally alongside your spider).
 
 [Check out the spider **once you're done**.](spiders/spider_6_books.py)
+
+#### 2. Reddit spider
+Build a spider to extract `title`, `link`, `username`, `user_url`, `score` and `time` from each submission in the front page of reddit's [/r/programming](http://reddit.com/r/programming) and [/r/python](http://reddit.com/r/python).
+
+[Check out the spider **once you're done**.](spiders/spider_5_reddit.py)
 
 ## References
 * [Scrapy Tutorial](https://doc.scrapy.org/en/latest/intro/tutorial.html)
